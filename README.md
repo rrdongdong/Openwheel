@@ -4,6 +4,12 @@ Open-source some readily usable tools. At present, I don't know what to write ab
 # Project1 : ThesisPolish  
 ## The tool can significantly enhance the polishing of master’s thesis.
 
+
+
+## 代码提交说明  
+- 代码提交到Openwheel仓库的thesispolish目录下  
+- 代码提交时,请在提交信息commit message中举例(ThesisPolish:增加了什么功能;your_name;date)  
+
 # runcode  
 ```
 # create a virtual environment
