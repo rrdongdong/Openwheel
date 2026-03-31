@@ -7,8 +7,11 @@ Open-source some readily usable tools. At present, I don't know what to write ab
 
 
 ## 代码提交说明  
-- 代码提交到Openwheel仓库的thesispolish目录下  
-- 代码提交时,请在提交信息commit message中举例(ThesisPolish:增加了什么功能;your_name;date)  
+- 代码提交到Openwheel仓库的thesispolish目录下
+(The code has been submitted to the "ThesisPolish" branch of the Openwheel repository.)  
+- 代码提交时,请在提交信息git commit message中按照例子进行编写
+(When submitting the code, please follow the example to write the git commit message in the submission information.)
+- Here is an example:ThesisPolish:Added what modules;your_name;date
 
 # runcode  
 ```
@@ -19,11 +22,11 @@ pip install --upgrade 'openai>=1.0'
 
 # set model to kimi-k2-0905-preview  
 set MOONSHOT_API_KEY=your_api_key
-# 生成论文整体大纲  
+# Generate the overall outline of the thesis.  
 python generate_outline.py your_pdf_path
 
-# 根据论文大纲，生成局部润色文字  
-# 润色完毕的文本在polish.txt文件中  
+# Based on the outline of the paper, generate localized revision text.    
+# 润色完毕的文本在polish.txt文件中(The revised text is stored in the "polish.txt" file.)  
 python polish.py --position 需要润色文字所在位置 --test 需要润色文本
 ```
 
