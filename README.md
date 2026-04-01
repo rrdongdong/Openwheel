@@ -10,6 +10,7 @@ Open-source some readily usable tools. At present, I don't know what to write ab
 ### This tool is designed for the scenario of polishing master's thesis. Based on the Kimi large model, it extracts the main thread of the thesis outline and optimizes the local content, avoiding the logical disconnection and content incoherence problems caused by traditional copy-paste method. The system provides a simple and user-friendly GUI interface, allowing users to input the thesis content, select the polishing model and output the polished results. At the same time, the tool supports integration with personal API, taking into account flexibility, data security and usability reliability.（Version 1 completed）  
 ### 本工具面向硕士毕业论文润色场景，基于 Kimi 大模型实现论文大纲脉络提取与局部内容优化，避免传统逐段复制粘贴带来的逻辑割裂与内容不连贯问题。系统提供简洁易用的 GUI 界面，支持用户输入论文内容、选择润色模型并输出润色结果。同时，工具支持接入个人 API，兼顾灵活性、数据安全性与使用可靠性。  
 ***
+GUI界面实例：
 ![GUI](picture/GUI.JPG)
 
 
