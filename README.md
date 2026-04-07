@@ -22,6 +22,13 @@ GUI界面实例：
 - 代码提交时,请在提交信息git commit message中按照例子进行编写
 (When submitting the code, please follow the example to write the git commit message in the submission information.)
 - Here is an example:ThesisPolish:Added what modules;your_name;date
+```
+# 提交代码
+git add .
+git commit -m "ThesisPolish:Added what modules;your_name;date"
+git push -u origin ThesisPolish  
+```
+
 ***
 ## 运行代码(Run Code)  
 ```
@@ -72,6 +79,14 @@ python GUI.py
 - 学习一下这个tkinter库  
 - 增加长文本的输入输出功能  
 
+### 2026-04-07    
+- 完成了gui中对大纲的修改和可视化，从而避免大纲识别错误  
+### further work  
+- 更加完善提示词的规范性(太粗略了)  
+
+
+# 模板
 ### 2026-03-31  
 - 完成了README.md文件的编写     
 ### further work  
+
