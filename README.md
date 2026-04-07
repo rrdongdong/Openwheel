@@ -22,6 +22,13 @@ GUI界面实例：
 - 代码提交时,请在提交信息git commit message中按照例子进行编写
 (When submitting the code, please follow the example to write the git commit message in the submission information.)
 - Here is an example:ThesisPolish:Added what modules;your_name;date
+```
+# 提交代码
+git add .
+git commit -m "ThesisPolish:Added what modules;your_name;date"
+git push -u origin ThesisPolish  
+```
+
 ***
 ## 运行代码(Run Code)  
 ```
